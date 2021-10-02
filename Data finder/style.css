@@ -1,0 +1,34 @@
+body {
+    margin-top: 10%;
+    background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 40%;
+    height: 40px;
+    margin-left: 400px;
+    border-radius: 12px;
+    border-color: black;
+    font-size: 25px;
+}
+
+.list {
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list li::before {
+    content: "> ";
+}
+
+.elastic li.hide {
+    display: none;
+}
